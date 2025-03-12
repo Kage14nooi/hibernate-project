@@ -3,16 +3,19 @@
   <persistence-unit name="user_role" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/hibernate1"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/centre_medical"/>
       <property name="javax.persistence.jdbc.user" value="postgres"/>
       <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-      <property name="javax.persistence.jdbc.password" value=".$kagenooi"/>
+      <property name="javax.persistence.jdbc.password" value="azerty"/>
+      
+      <!-- Définir le dialecte PostgreSQL pour Hibernate -->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+      
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
       <property name="javax.persistence.schema-generation.database.action" value="none"/>
       <property name="hibernate.hbm2ddl.auto" value="update"/>
       <property name="hibernate.show_sql" value="true"/>
       <property name="hibernate.format_sql" value="true"/>
     </properties>
-      
   </persistence-unit>
 </persistence>
