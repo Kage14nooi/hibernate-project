@@ -48,6 +48,7 @@ public class PatientPanel extends javax.swing.JPanel implements MouseListener{
         setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         setMinimumSize(new java.awt.Dimension(2, 2));
 
+        BtnAjoutPatient.setForeground(new java.awt.Color(0, 0, 153));
         BtnAjoutPatient.setText("Ajouter");
         BtnAjoutPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,6 +91,7 @@ public class PatientPanel extends javax.swing.JPanel implements MouseListener{
             }
         });
 
+        BtnModifierPatient.setForeground(new java.awt.Color(0, 0, 153));
         BtnModifierPatient.setText("Modifier");
         BtnModifierPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,6 +99,7 @@ public class PatientPanel extends javax.swing.JPanel implements MouseListener{
             }
         });
 
+        BtnSupprimerPatient.setForeground(new java.awt.Color(153, 0, 0));
         BtnSupprimerPatient.setText("Supprimer");
         BtnSupprimerPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,10 +115,11 @@ public class PatientPanel extends javax.swing.JPanel implements MouseListener{
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(181, 181, 181)
                         .addComponent(BtnModifierPatient)
-                        .addGap(26, 26, 26)
-                        .addComponent(BtnSupprimerPatient))
+                        .addGap(51, 51, 51)
+                        .addComponent(BtnSupprimerPatient)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(BtnAjoutPatient)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)

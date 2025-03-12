@@ -9,6 +9,7 @@ com\project\hibernate\gui\VisiterPanel$1.class
 com\project\hibernate\test\HibernateTest.class
 com\project\hibernate\entity\Patient.class
 com\project\hibernate\entity\Visiter.class
+com\project\hibernate\gui\JDialogFormVisiter$1.class
 com\project\hibernate\gui\JDialogFormMedecin$5.class
 com\project\hibernate\gui\MedecinPanel.class
 com\project\hibernate\gui\MainFrame$3.class
@@ -17,8 +18,10 @@ com\project\hibernate\gui\VisiterPanel$2.class
 com\project\hibernate\gui\JDialogFormMedecin.class
 com\project\hibernate\gui\JDialogFormMedecin$1.class
 com\project\hibernate\gui\JDialogFormPatient$2.class
+com\project\hibernate\gui\JDialogFormVisiter.class
 com\project\hibernate\gui\JDialogFormPatient$3.class
 com\project\hibernate\gui\JDialogFormPatient.class
+com\project\hibernate\gui\AccueilPanel.class
 com\project\hibernate\entity\VisiterId.class
 com\project\hibernate\dao\VisiterDAO.class
 com\project\hibernate\gui\PatientPanel$6.class
