@@ -49,6 +49,7 @@ public class MedecinPanel extends javax.swing.JPanel implements MouseListener {
         setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         setMinimumSize(new java.awt.Dimension(2, 2));
 
+        BtnAjoutMedecin.setForeground(new java.awt.Color(0, 0, 153));
         BtnAjoutMedecin.setText("Ajouter");
         BtnAjoutMedecin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,6 +87,7 @@ public class MedecinPanel extends javax.swing.JPanel implements MouseListener {
             }
         });
 
+        BtnModifierMedecin.setForeground(new java.awt.Color(0, 0, 153));
         BtnModifierMedecin.setText("Modifier");
         BtnModifierMedecin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,6 +95,7 @@ public class MedecinPanel extends javax.swing.JPanel implements MouseListener {
             }
         });
 
+        BtnSupprimerMedein.setForeground(new java.awt.Color(153, 0, 0));
         BtnSupprimerMedein.setText("Supprimer");
         BtnSupprimerMedein.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,8 +112,9 @@ public class MedecinPanel extends javax.swing.JPanel implements MouseListener {
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(BtnModifierMedecin)
-                        .addGap(29, 29, 29)
-                        .addComponent(BtnSupprimerMedein))
+                        .addGap(40, 40, 40)
+                        .addComponent(BtnSupprimerMedein)
+                        .addGap(169, 169, 169))
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 596, Short.MAX_VALUE))

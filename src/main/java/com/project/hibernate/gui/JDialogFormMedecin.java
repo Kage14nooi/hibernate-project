@@ -84,7 +84,7 @@ public class JDialogFormMedecin extends javax.swing.JDialog {
                 txtFieldNameMedecinActionPerformed(evt);
             }
         });
-        getContentPane().add(txtFieldNameMedecin, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 43, 197, -1));
+        getContentPane().add(txtFieldNameMedecin, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 197, -1));
 
         txtFieldFirstNameMedecin.setText("Nom");
         txtFieldFirstNameMedecin.addActionListener(new java.awt.event.ActionListener() {

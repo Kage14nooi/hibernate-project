@@ -49,6 +49,7 @@ public class VisiterPanel extends javax.swing.JPanel {
         TableVisiter.setMinimumSize(new java.awt.Dimension(2, 2));
         jScrollPane1.setViewportView(TableVisiter);
 
+        BtnAjoutVisiter.setForeground(new java.awt.Color(0, 0, 153));
         BtnAjoutVisiter.setText("Ajouter");
 
         TxtFieldSearchVisiter.setText("Rechercher Visiter");
@@ -65,6 +66,7 @@ public class VisiterPanel extends javax.swing.JPanel {
             }
         });
 
+        BtnModifierVisiter.setForeground(new java.awt.Color(0, 0, 153));
         BtnModifierVisiter.setText("Modifier");
         BtnModifierVisiter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,6 +74,7 @@ public class VisiterPanel extends javax.swing.JPanel {
             }
         });
 
+        BtnSupprimerVisiter.setForeground(new java.awt.Color(153, 0, 0));
         BtnSupprimerVisiter.setText("Supprimer");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -88,10 +91,11 @@ public class VisiterPanel extends javax.swing.JPanel {
                         .addGap(18, 18, 18)
                         .addComponent(BtnSearchVisiter))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(193, 193, 193)
                         .addComponent(BtnModifierVisiter)
-                        .addGap(26, 26, 26)
-                        .addComponent(BtnSupprimerVisiter))
+                        .addGap(57, 57, 57)
+                        .addComponent(BtnSupprimerVisiter)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 590, Short.MAX_VALUE))
                 .addGap(13, 13, 13))
         );

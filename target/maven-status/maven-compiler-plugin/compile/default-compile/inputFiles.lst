@@ -6,8 +6,10 @@ C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\pro
 C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\entity\Patient.java
 C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\entity\Visiter.java
 C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\entity\VisiterId.java
+C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\gui\AccueilPanel.java
 C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\gui\JDialogFormMedecin.java
 C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\gui\JDialogFormPatient.java
+C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\gui\JDialogFormVisiter.java
 C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\gui\MainFrame.java
 C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\gui\MedecinPanel.java
 C:\Users\asus\Documents\NetBeansProjects\hibernate-project\src\main\java\com\project\hibernate\gui\PatientPanel.java
