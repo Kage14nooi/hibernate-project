@@ -7,6 +7,7 @@ com\project\hibernate\gui\MedecinPanel$3.class
 com\project\hibernate\gui\JDialogFormMedecin$4.class
 com\project\hibernate\gui\JDialogFormPatient$5$1.class
 com\project\hibernate\gui\MainFrame$1.class
+com\project\hibernate\gui\JDialogMedecin$2.class
 com\project\hibernate\gui\VisiterPanel$1.class
 com\project\hibernate\test\HibernateTest.class
 com\project\hibernate\entity\Patient.class
@@ -21,6 +22,7 @@ com\project\hibernate\gui\JDialogFormMedecin.class
 com\project\hibernate\gui\JDialogFormMedecin$1.class
 com\project\hibernate\gui\JDialogFormPatient$2.class
 com\project\hibernate\gui\JDialogFormVisiter.class
+com\project\hibernate\gui\JDialogMedecin$1.class
 com\project\hibernate\gui\JDialogFormPatient$3.class
 com\project\hibernate\gui\JDialogFormPatient.class
 com\project\hibernate\util\ComboBoxList.class
@@ -49,7 +51,10 @@ com\project\hibernate\gui\PatientPanel$5.class
 com\project\hibernate\gui\PatientPanel.class
 com\project\hibernate\gui\VisiterPanel$3.class
 com\project\hibernate\gui\JDialogFormVisite$1.class
+com\project\hibernate\gui\JDialogMedecin$3.class
 com\project\hibernate\gui\PatientPanel$2.class
 com\project\hibernate\gui\JDialogFormMedecin$3.class
 com\project\hibernate\gui\MainFrame$2.class
 com\project\hibernate\dao\MedecinDAO.class
+com\project\hibernate\gui\JDialogMedecin$3$1.class
+com\project\hibernate\gui\JDialogMedecin.class

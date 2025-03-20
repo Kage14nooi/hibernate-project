@@ -129,7 +129,7 @@ public class MedecinPanel extends javax.swing.JPanel implements MouseListener {
 
     private void BtnAjoutMedecinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAjoutMedecinActionPerformed
         Medecin medecin = this.medecin;
-        JDialogFormMedecin formAjoutMedecin = new JDialogFormMedecin(null,true,"New");
+        JDialogMedecin formAjoutMedecin = new JDialogMedecin(null,true,"New");
         formAjoutMedecin.setLocationRelativeTo(this);
         formAjoutMedecin.setVisible(true);
         selectMedecin();
@@ -142,7 +142,7 @@ public class MedecinPanel extends javax.swing.JPanel implements MouseListener {
                 JOptionPane.showMessageDialog(this, "Veuillez sélectionnée un médecin.", "Erreur", JOptionPane.ERROR_MESSAGE);
                 return;
             }
-        JDialogFormMedecin formAjoutMedecin = new JDialogFormMedecin(null,true,"Update",this.medecin);
+        JDialogMedecin formAjoutMedecin = new JDialogMedecin(null,true,"Update",this.medecin);
         System.out.println("Modifier Panel" +this.medecin.getCodemed());
         formAjoutMedecin.setVisible(true);
         selectMedecin();
@@ -153,7 +153,7 @@ public class MedecinPanel extends javax.swing.JPanel implements MouseListener {
                 JOptionPane.showMessageDialog(this, "Veuillez sélectionnée un médecin.", "Erreur", JOptionPane.ERROR_MESSAGE);
                 return;
             }
-        JDialogFormMedecin formAjoutMedecin = new JDialogFormMedecin(null,true,this.medecin,"Delete");
+        JDialogMedecin formAjoutMedecin = new JDialogMedecin(null,true,this.medecin,"Delete");
         System.out.println("Supprimer Panel : "+this.medecin.getCodemed());
         formAjoutMedecin.setVisible(true);
         selectMedecin();
